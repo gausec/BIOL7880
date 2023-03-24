@@ -1,4 +1,4 @@
-# Intro to writing Python3 scripts and creating variables
+# Intro to writing Python3 scripts and creating variables in the command line
 
 ## Instructions:
 In Bioinformatics_Spring_2023 on the lab machine, please create a subdirectory using your lastname_firstname. Then under this subdirectory, please create a subdirectory “HW4”.
