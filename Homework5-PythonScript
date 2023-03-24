@@ -1,0 +1,27 @@
+# Homework 5 script
+# Instructions:
+
+#The following script was written for Python 3, and it is in my HW5 subdirectory on the bioinfo server. 
+
+1. Specify the sequences to open from the command line
+```
+2. homework5_sequences = input("Type name of sequence file here, please: ")
+```
+3. Create an outfile to save the sequences to
+```
+homework5_out = open('homework5_out.txt', 'w')
+```
+
+4. Write the lines individually in the outfile
+```
+with open(homework5_sequences, 'r') as HW5Seq:
+    for line in HW5Seq:
+        homework5_out.write(line)
+```
+5. In the with statement, each line of the input file is read using a for loop, and the contents of each line are written to the output file using the write() method.
+
+
+6. Use `scp` command to copy my outfile to my local computer
+```
+scp bioinfo@10.31.60.11:/Users/bioinfo/Bioinformatics_Spring_2023/Gause_Carol/HW5/homework5_out.txt .
+```
