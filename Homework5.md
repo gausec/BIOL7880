@@ -23,15 +23,14 @@ Here accession numbers and sequences should be the originals from the input file
 
 ---
 
-### *The following script was written for Python 3, and it is in my HW5 subdirectory on the bioinfo server.*
 
-### Create the directory and transfer the homework5_sequences file from my local machine to the remote lab server
+### Creating the new directory and transfering the homework5_sequences file from my local machine to the remote lab server
 
-1. Creating a new subdirectory
+1. From remote lab server, create a new subdirectory
 ```
 mkdir HW5
 ```
-2. Use `scp` to copy the homework5_sequences file into my working directory on the remote server
+2. Use `scp` from my local machine to copy the homework5_sequences file into my working directory on the remote server
 ```
 scp /Users/Carol/Documents/homework5_sequences <username>@<ipaddress>:/Users/bioinfo/Bioinformatics_Spring_2023/Gause_Carol/HW5
 ```
