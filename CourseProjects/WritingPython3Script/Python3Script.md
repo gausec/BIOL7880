@@ -1,4 +1,4 @@
-# Homework 5 - Writing a Python3 Script
+# Task: Writing a Python3 Script
 ---
 ### **Instructions:**
 In Bioinformatics_Spring_2023 on the lab computer, there is a file called “homework5_sequences”. Please create a subdirectory "HW5" under your own subdirectory, and copy “homework5_sequences” into your "HW" subdirectory.
