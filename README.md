@@ -9,10 +9,10 @@
 ---
 ### Contents
 This repository contains some of the projects that I completed for this course. 
-- **CourseProjects** Markdown files with steps I took to complete assignmnets
-- **bin** Python scripts writen by Carol Gause
-- **data** Raw data for analyses & assignments
-- **results** Textfiles with outputs
+- **CourseProjects**: Markdown files with steps I took to complete assignmnets
+- **bin**: Python scripts writen by Carol Gause
+- **data**: Raw data for analyses & assignments
+- **results**: Textfiles with outputs
 ---
 ### Contributor
 - Carol Gause
