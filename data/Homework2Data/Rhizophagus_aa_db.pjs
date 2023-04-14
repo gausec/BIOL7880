@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "Rhizophagus_aa_db",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "Rhizophagus_aa",
+  "number-of-letters": 8170311,
+  "number-of-sequences": 30282,
+  "last-updated": "2023-02-21T13:38:00",
+  "number-of-volumes": 1,
+  "bytes-total": 12005727,
+  "bytes-to-cache": 8442954,
+  "files": [
+    "Rhizophagus_aa_db.pdb",
+    "Rhizophagus_aa_db.phr",
+    "Rhizophagus_aa_db.pin",
+    "Rhizophagus_aa_db.pot",
+    "Rhizophagus_aa_db.psq",
+    "Rhizophagus_aa_db.ptf",
+    "Rhizophagus_aa_db.pto"
+  ]
+}

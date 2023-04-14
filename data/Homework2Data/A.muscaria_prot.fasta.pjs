@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "A.muscaria_prot.fasta",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "A.muscaria_prot.fasta",
+  "number-of-letters": 255,
+  "number-of-sequences": 3,
+  "last-updated": "2023-02-20T15:39:00",
+  "number-of-volumes": 1,
+  "bytes-total": 37665,
+  "bytes-to-cache": 403,
+  "files": [
+    "A.muscaria_prot.fasta.pdb",
+    "A.muscaria_prot.fasta.phr",
+    "A.muscaria_prot.fasta.pin",
+    "A.muscaria_prot.fasta.pot",
+    "A.muscaria_prot.fasta.psq",
+    "A.muscaria_prot.fasta.ptf",
+    "A.muscaria_prot.fasta.pto"
+  ]
+}
