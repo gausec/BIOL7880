@@ -1,0 +1,415 @@
+BLASTP 2.13.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: ProteinSequences
+           30,282 sequences; 8,170,311 total letters
+
+
+
+Query= UZH91457.1 metallothionein 1 [Amanita muscaria]
+
+Length=67
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+jgi|Gloin1|9390|gm1.9390_g                                            26.2    0.97 
+jgi|Gloin1|4196|gm1.4196_g                                            25.4    1.8  
+jgi|Gloin1|83113|fgenesh1_pg.166_#_1                                  25.0    2.7  
+
+
+>jgi|Gloin1|9390|gm1.9390_g
+Length=663
+
+ Score = 26.2 bits (56),  Expect = 0.97, Method: Composition-based stats.
+ Identities = 9/15 (60%), Positives = 10/15 (67%), Gaps = 0/15 (0%)
+
+Query  28   CKKGTCNCNNCENKK  42
+            C +  C CN CENKK
+Sbjct  629  CNQDNCICNICENKK  643
+
+
+>jgi|Gloin1|4196|gm1.4196_g
+Length=736
+
+ Score = 25.4 bits (54),  Expect = 1.8, Method: Composition-based stats.
+ Identities = 10/34 (29%), Positives = 18/34 (53%), Gaps = 1/34 (3%)
+
+Query  14   DLCGPTVTTGTRCACKKGTCNCNNCENKKHTANC  47
+            ++   +  T  +C CK G+CN N C  +++   C
+Sbjct  685  EMSSASSITEQKCYCK-GSCNTNQCGCQRNKLPC  717
+
+
+>jgi|Gloin1|83113|fgenesh1_pg.166_#_1
+Length=771
+
+ Score = 25.0 bits (53),  Expect = 2.7, Method: Composition-based stats.
+ Identities = 11/36 (31%), Positives = 16/36 (44%), Gaps = 0/36 (0%)
+
+Query  7    CTCQANCDLCGPTVTTGTRCACKKGTCNCNNCENKK  42
+            C     C  CG  +  G+ C C+K     N+ + KK
+Sbjct  711  CFVCRKCLYCGVNLAEGSVCNCEKTLKPTNSSKTKK  746
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.130    0.488    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 203568255
+
+
+Query= AAZ06274.1 beta-tubulin, partial [Amanita muscaria]
+
+Length=94
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+jgi|Gloin1|21436|gm1.21436_g                                          164     2e-50
+jgi|Gloin1|343034|fgenesh1_kg.11990_#_3_#_step3_rep_c206              163     2e-50
+jgi|Gloin1|80694|e_gw1.22271.3.1                                      150     2e-45
+jgi|Gloin1|349421|fgenesh1_kg.24754_#_3_#_ACTTGA_L001_R1_(paired)...  93.2    5e-24
+jgi|Gloin1|67395|e_gw1.3875.12.1                                      73.2    6e-17
+jgi|Gloin1|75420|e_gw1.13611.2.1                                      48.5    2e-09
+jgi|Gloin1|88712|fgenesh1_pg.7436_#_7                                 34.3    0.003
+jgi|Gloin1|38930|fgenesh1_pm.2582_#_1                                 30.0    0.11 
+jgi|Gloin1|343275|fgenesh1_kg.12417_#_1_#_ACTTGA_L001_R1_(paired)...  27.3    1.0  
+jgi|Gloin1|217165|CE117153_1491                                       25.4    4.0  
+
+
+>jgi|Gloin1|21436|gm1.21436_g
+Length=448
+
+ Score = 164 bits (414),  Expect = 2e-50, Method: Compositional matrix adjust.
+ Identities = 90/94 (96%), Positives = 92/94 (98%), Gaps = 0/94 (0%)
+
+Query  1    YTEGAELVDAVLDVVRKEAEGTDCLQGFQITHSLGGGTGAGMGTLLISKIREEYPDRMMC  60
+            YTEGAELVD+VLDVVRKEAE  DCLQGFQITHSLGGGTGAGMGTLLISKIREEYPDRMMC
+Sbjct  106  YTEGAELVDSVLDVVRKEAESCDCLQGFQITHSLGGGTGAGMGTLLISKIREEYPDRMMC  165
+
+Query  61   TYSVVPSPKVSDTVVEPYNATLSVHQLVENSDET  94
+            T+SVVPSPKVSDTVVEPYNATLSVHQLVENSDET
+Sbjct  166  TFSVVPSPKVSDTVVEPYNATLSVHQLVENSDET  199
+
+
+>jgi|Gloin1|343034|fgenesh1_kg.11990_#_3_#_step3_rep_c206
+Length=450
+
+ Score = 163 bits (413),  Expect = 2e-50, Method: Compositional matrix adjust.
+ Identities = 90/94 (96%), Positives = 92/94 (98%), Gaps = 0/94 (0%)
+
+Query  1    YTEGAELVDAVLDVVRKEAEGTDCLQGFQITHSLGGGTGAGMGTLLISKIREEYPDRMMC  60
+            YTEGAELVD+VLDVVRKEAE  DCLQGFQITHSLGGGTGAGMGTLLISKIREEYPDRMMC
+Sbjct  108  YTEGAELVDSVLDVVRKEAESCDCLQGFQITHSLGGGTGAGMGTLLISKIREEYPDRMMC  167
+
+Query  61   TYSVVPSPKVSDTVVEPYNATLSVHQLVENSDET  94
+            T+SVVPSPKVSDTVVEPYNATLSVHQLVENSDET
+Sbjct  168  TFSVVPSPKVSDTVVEPYNATLSVHQLVENSDET  201
+
+
+>jgi|Gloin1|80694|e_gw1.22271.3.1
+Length=462
+
+ Score = 150 bits (379),  Expect = 2e-45, Method: Composition-based stats.
+ Identities = 82/94 (87%), Positives = 92/94 (98%), Gaps = 0/94 (0%)
+
+Query  1    YTEGAELVDAVLDVVRKEAEGTDCLQGFQITHSLGGGTGAGMGTLLISKIREEYPDRMMC  60
+            YTEGAELVD++LDV+RKEAE TDCLQGFQ+THSLGGGTG+G+G+LL+SKIREEYPDRM+C
+Sbjct  106  YTEGAELVDSILDVLRKEAESTDCLQGFQVTHSLGGGTGSGLGSLLLSKIREEYPDRMLC  165
+
+Query  61   TYSVVPSPKVSDTVVEPYNATLSVHQLVENSDET  94
+            T+SVVPSPKVSDTVVEPYNA LSVHQLVENSDET
+Sbjct  166  TFSVVPSPKVSDTVVEPYNAVLSVHQLVENSDET  199
+
+
+>jgi|Gloin1|349421|fgenesh1_kg.24754_#_3_#_ACTTGA_L001_R1_(paired)_contig_2614
+Length=455
+
+ Score = 93.2 bits (230),  Expect = 5e-24, Method: Composition-based stats.
+ Identities = 36/93 (39%), Positives = 69/93 (74%), Gaps = 1/93 (1%)
+
+Query  1    YTEGAELVDAVLDVVRKEAEGTDCLQGFQITHSLGGGTGAGMGTLLISKIREEYPDRMMC  60
+            +++  ++ + + +++ +EA+G+D L+GF + HS+ GGTG+GMG+ L+ ++ + YP +++ 
+Sbjct  108  FSQAEKVCEDIFEMIDREADGSDSLEGFMLLHSIAGGTGSGMGSFLLERLNDRYPKKLIT  167
+
+Query  61   TYSVVP-SPKVSDTVVEPYNATLSVHQLVENSD  92
+            TYSV P + +VSD VV+PYN+ L++ +L  N+D
+Sbjct  168  TYSVFPNNEEVSDVVVQPYNSILTLRRLTNNAD  200
+
+
+>jgi|Gloin1|67395|e_gw1.3875.12.1
+Length=451
+
+ Score = 73.2 bits (178),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 45/92 (49%), Positives = 62/92 (67%), Gaps = 0/92 (0%)
+
+Query  1    YTEGAELVDAVLDVVRKEAEGTDCLQGFQITHSLGGGTGAGMGTLLISKIREEYPDRMMC  60
+            YT G E+VD VLD +RK A+    LQGF + HS GGGTG+G G LL+ ++  +Y  +   
+Sbjct  108  YTIGKEIVDLVLDRIRKLADNCTGLQGFLVFHSFGGGTGSGFGALLLERLSVDYGKKSKL  167
+
+Query  61   TYSVVPSPKVSDTVVEPYNATLSVHQLVENSD  92
+             +SV P+P+VS  VVEPYN+ L+ H  +E+SD
+Sbjct  168  EFSVYPAPQVSTAVVEPYNSILTTHTTLEHSD  199
+
+
+>jgi|Gloin1|75420|e_gw1.13611.2.1
+Length=57
+
+ Score = 48.5 bits (114),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 22/34 (65%), Positives = 27/34 (79%), Gaps = 0/34 (0%)
+
+Query  1   YTEGAELVDAVLDVVRKEAEGTDCLQGFQITHSL  34
+           YTEGAELVD++LDV+RKEAE TDCL    +  +L
+Sbjct  22  YTEGAELVDSILDVLRKEAESTDCLLAICVICTL  55
+
+
+>jgi|Gloin1|88712|fgenesh1_pg.7436_#_7
+Length=553
+
+ Score = 34.3 bits (77),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 23/77 (30%), Positives = 38/77 (49%), Gaps = 6/77 (8%)
+
+Query  20   EGTDCLQGFQITHSLGGGTGAGMGTLLISKIREEYPDRMMCTYSVVP----SPKVSDTVV  75
+            E  D +QGFQ+  S+  G G G     + ++R+EYP   + ++ +      +PK  ++  
+Sbjct  206  EECDAIQGFQVYTSIIDGFG-GFACSFLEQLRDEYPKTAIWSFGITENRSWAPKGHNSYY  264
+
+Query  76   EP-YNATLSVHQLVENS  91
+            +   N  LS  QL E S
+Sbjct  265  KQILNIALSTTQLTEFS  281
+
+
+>jgi|Gloin1|38930|fgenesh1_pm.2582_#_1
+Length=1372
+
+ Score = 30.0 bits (66),  Expect = 0.11, Method: Composition-based stats.
+ Identities = 17/43 (40%), Positives = 19/43 (44%), Gaps = 0/43 (0%)
+
+Query  14    VVRKEAEGTDCLQGFQITHSLGGGTGAGMGTLLISKIREEYPD  56
+             V  KE  G     GF     LG G+G     LL S  REE+ D
+Sbjct  1150  VTLKEFRGIAACGGFSYGDVLGAGSGWAKSILLHSNAREEFED  1192
+
+
+>jgi|Gloin1|343275|fgenesh1_kg.12417_#_1_#_ACTTGA_L001_R1_(paired)_contig_5152
+Length=1347
+
+ Score = 27.3 bits (59),  Expect = 1.0, Method: Composition-based stats.
+ Identities = 9/24 (38%), Positives = 19/24 (79%), Gaps = 0/24 (0%)
+
+Query  7    LVDAVLDVVRKEAEGTDCLQGFQI  30
+            +++ VLD++ KE++ +DC  G++I
+Sbjct  364  ILEKVLDILVKESQKSDCDNGYRI  387
+
+
+>jgi|Gloin1|217165|CE117153_1491
+Length=626
+
+ Score = 25.4 bits (54),  Expect = 4.0, Method: Composition-based stats.
+ Identities = 14/44 (32%), Positives = 23/44 (52%), Gaps = 1/44 (2%)
+
+Query  10   AVLDVVRKEAEGTDCLQGFQITHSLGGGTGAGMGTLLIS-KIRE  52
+             V +V+++E E  +      + HSLG G  + +  LL S K R+
+Sbjct  384  GVYEVIKRELEANEGYGLVLVGHSLGAGVASLLAILLASPKTRQ  427
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.132    0.373    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 201370464
+
+
+Query= AAZ06273.1 beta-tubulin, partial [Amanita muscaria]
+
+Length=94
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+jgi|Gloin1|21436|gm1.21436_g                                          164     2e-50
+jgi|Gloin1|343034|fgenesh1_kg.11990_#_3_#_step3_rep_c206              163     2e-50
+jgi|Gloin1|80694|e_gw1.22271.3.1                                      150     2e-45
+jgi|Gloin1|349421|fgenesh1_kg.24754_#_3_#_ACTTGA_L001_R1_(paired)...  93.2    5e-24
+jgi|Gloin1|67395|e_gw1.3875.12.1                                      73.2    6e-17
+jgi|Gloin1|75420|e_gw1.13611.2.1                                      48.5    2e-09
+jgi|Gloin1|88712|fgenesh1_pg.7436_#_7                                 34.3    0.003
+jgi|Gloin1|38930|fgenesh1_pm.2582_#_1                                 30.0    0.11 
+jgi|Gloin1|343275|fgenesh1_kg.12417_#_1_#_ACTTGA_L001_R1_(paired)...  27.3    1.0  
+jgi|Gloin1|217165|CE117153_1491                                       25.4    4.0  
+
+
+>jgi|Gloin1|21436|gm1.21436_g
+Length=448
+
+ Score = 164 bits (414),  Expect = 2e-50, Method: Compositional matrix adjust.
+ Identities = 90/94 (96%), Positives = 92/94 (98%), Gaps = 0/94 (0%)
+
+Query  1    YTEGAELVDAVLDVVRKEAEGTDCLQGFQITHSLGGGTGAGMGTLLISKIREEYPDRMMC  60
+            YTEGAELVD+VLDVVRKEAE  DCLQGFQITHSLGGGTGAGMGTLLISKIREEYPDRMMC
+Sbjct  106  YTEGAELVDSVLDVVRKEAESCDCLQGFQITHSLGGGTGAGMGTLLISKIREEYPDRMMC  165
+
+Query  61   TYSVVPSPKVSDTVVEPYNATLSVHQLVENSDET  94
+            T+SVVPSPKVSDTVVEPYNATLSVHQLVENSDET
+Sbjct  166  TFSVVPSPKVSDTVVEPYNATLSVHQLVENSDET  199
+
+
+>jgi|Gloin1|343034|fgenesh1_kg.11990_#_3_#_step3_rep_c206
+Length=450
+
+ Score = 163 bits (413),  Expect = 2e-50, Method: Compositional matrix adjust.
+ Identities = 90/94 (96%), Positives = 92/94 (98%), Gaps = 0/94 (0%)
+
+Query  1    YTEGAELVDAVLDVVRKEAEGTDCLQGFQITHSLGGGTGAGMGTLLISKIREEYPDRMMC  60
+            YTEGAELVD+VLDVVRKEAE  DCLQGFQITHSLGGGTGAGMGTLLISKIREEYPDRMMC
+Sbjct  108  YTEGAELVDSVLDVVRKEAESCDCLQGFQITHSLGGGTGAGMGTLLISKIREEYPDRMMC  167
+
+Query  61   TYSVVPSPKVSDTVVEPYNATLSVHQLVENSDET  94
+            T+SVVPSPKVSDTVVEPYNATLSVHQLVENSDET
+Sbjct  168  TFSVVPSPKVSDTVVEPYNATLSVHQLVENSDET  201
+
+
+>jgi|Gloin1|80694|e_gw1.22271.3.1
+Length=462
+
+ Score = 150 bits (379),  Expect = 2e-45, Method: Composition-based stats.
+ Identities = 82/94 (87%), Positives = 92/94 (98%), Gaps = 0/94 (0%)
+
+Query  1    YTEGAELVDAVLDVVRKEAEGTDCLQGFQITHSLGGGTGAGMGTLLISKIREEYPDRMMC  60
+            YTEGAELVD++LDV+RKEAE TDCLQGFQ+THSLGGGTG+G+G+LL+SKIREEYPDRM+C
+Sbjct  106  YTEGAELVDSILDVLRKEAESTDCLQGFQVTHSLGGGTGSGLGSLLLSKIREEYPDRMLC  165
+
+Query  61   TYSVVPSPKVSDTVVEPYNATLSVHQLVENSDET  94
+            T+SVVPSPKVSDTVVEPYNA LSVHQLVENSDET
+Sbjct  166  TFSVVPSPKVSDTVVEPYNAVLSVHQLVENSDET  199
+
+
+>jgi|Gloin1|349421|fgenesh1_kg.24754_#_3_#_ACTTGA_L001_R1_(paired)_contig_2614
+Length=455
+
+ Score = 93.2 bits (230),  Expect = 5e-24, Method: Composition-based stats.
+ Identities = 36/93 (39%), Positives = 69/93 (74%), Gaps = 1/93 (1%)
+
+Query  1    YTEGAELVDAVLDVVRKEAEGTDCLQGFQITHSLGGGTGAGMGTLLISKIREEYPDRMMC  60
+            +++  ++ + + +++ +EA+G+D L+GF + HS+ GGTG+GMG+ L+ ++ + YP +++ 
+Sbjct  108  FSQAEKVCEDIFEMIDREADGSDSLEGFMLLHSIAGGTGSGMGSFLLERLNDRYPKKLIT  167
+
+Query  61   TYSVVP-SPKVSDTVVEPYNATLSVHQLVENSD  92
+            TYSV P + +VSD VV+PYN+ L++ +L  N+D
+Sbjct  168  TYSVFPNNEEVSDVVVQPYNSILTLRRLTNNAD  200
+
+
+>jgi|Gloin1|67395|e_gw1.3875.12.1
+Length=451
+
+ Score = 73.2 bits (178),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 45/92 (49%), Positives = 62/92 (67%), Gaps = 0/92 (0%)
+
+Query  1    YTEGAELVDAVLDVVRKEAEGTDCLQGFQITHSLGGGTGAGMGTLLISKIREEYPDRMMC  60
+            YT G E+VD VLD +RK A+    LQGF + HS GGGTG+G G LL+ ++  +Y  +   
+Sbjct  108  YTIGKEIVDLVLDRIRKLADNCTGLQGFLVFHSFGGGTGSGFGALLLERLSVDYGKKSKL  167
+
+Query  61   TYSVVPSPKVSDTVVEPYNATLSVHQLVENSD  92
+             +SV P+P+VS  VVEPYN+ L+ H  +E+SD
+Sbjct  168  EFSVYPAPQVSTAVVEPYNSILTTHTTLEHSD  199
+
+
+>jgi|Gloin1|75420|e_gw1.13611.2.1
+Length=57
+
+ Score = 48.5 bits (114),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 22/34 (65%), Positives = 27/34 (79%), Gaps = 0/34 (0%)
+
+Query  1   YTEGAELVDAVLDVVRKEAEGTDCLQGFQITHSL  34
+           YTEGAELVD++LDV+RKEAE TDCL    +  +L
+Sbjct  22  YTEGAELVDSILDVLRKEAESTDCLLAICVICTL  55
+
+
+>jgi|Gloin1|88712|fgenesh1_pg.7436_#_7
+Length=553
+
+ Score = 34.3 bits (77),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 23/77 (30%), Positives = 38/77 (49%), Gaps = 6/77 (8%)
+
+Query  20   EGTDCLQGFQITHSLGGGTGAGMGTLLISKIREEYPDRMMCTYSVVP----SPKVSDTVV  75
+            E  D +QGFQ+  S+  G G G     + ++R+EYP   + ++ +      +PK  ++  
+Sbjct  206  EECDAIQGFQVYTSIIDGFG-GFACSFLEQLRDEYPKTAIWSFGITENRSWAPKGHNSYY  264
+
+Query  76   EP-YNATLSVHQLVENS  91
+            +   N  LS  QL E S
+Sbjct  265  KQILNIALSTTQLTEFS  281
+
+
+>jgi|Gloin1|38930|fgenesh1_pm.2582_#_1
+Length=1372
+
+ Score = 30.0 bits (66),  Expect = 0.11, Method: Composition-based stats.
+ Identities = 17/43 (40%), Positives = 19/43 (44%), Gaps = 0/43 (0%)
+
+Query  14    VVRKEAEGTDCLQGFQITHSLGGGTGAGMGTLLISKIREEYPD  56
+             V  KE  G     GF     LG G+G     LL S  REE+ D
+Sbjct  1150  VTLKEFRGIAACGGFSYGDVLGAGSGWAKSILLHSNAREEFED  1192
+
+
+>jgi|Gloin1|343275|fgenesh1_kg.12417_#_1_#_ACTTGA_L001_R1_(paired)_contig_5152
+Length=1347
+
+ Score = 27.3 bits (59),  Expect = 1.0, Method: Composition-based stats.
+ Identities = 9/24 (38%), Positives = 19/24 (79%), Gaps = 0/24 (0%)
+
+Query  7    LVDAVLDVVRKEAEGTDCLQGFQI  30
+            +++ VLD++ KE++ +DC  G++I
+Sbjct  364  ILEKVLDILVKESQKSDCDNGYRI  387
+
+
+>jgi|Gloin1|217165|CE117153_1491
+Length=626
+
+ Score = 25.4 bits (54),  Expect = 4.0, Method: Composition-based stats.
+ Identities = 14/44 (32%), Positives = 23/44 (52%), Gaps = 1/44 (2%)
+
+Query  10   AVLDVVRKEAEGTDCLQGFQITHSLGGGTGAGMGTLLIS-KIRE  52
+             V +V+++E E  +      + HSLG G  + +  LL S K R+
+Sbjct  384  GVYEVIKRELEANEGYGLVLVGHSLGAGVASLLAILLASPKTRQ  427
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.132    0.373    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 201370464
+
+
+  Database: ProteinSequences
+    Posted date:  Feb 10, 2023  9:30 AM
+  Number of letters in database: 8,170,311
+  Number of sequences in database:  30,282
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

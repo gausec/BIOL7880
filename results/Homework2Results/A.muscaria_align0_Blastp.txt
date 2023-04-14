@@ -1,0 +1,126 @@
+BLASTP 2.13.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: ProteinSequences
+           30,282 sequences; 8,170,311 total letters
+
+
+
+Query= UZH91457.1 metallothionein 1 [Amanita muscaria]
+
+Length=67
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+jgi|Gloin1|9390|gm1.9390_g                                            26.2    0.97 
+jgi|Gloin1|4196|gm1.4196_g                                            25.4    1.8  
+jgi|Gloin1|83113|fgenesh1_pg.166_#_1                                  25.0    2.7  
+jgi|Gloin1|627|gm1.627_g                                              24.3    5.3  
+jgi|Gloin1|7840|gm1.7840_g                                            23.9    6.0  
+jgi|Gloin1|349329|fgenesh1_kg.24480_#_2_#_ACTTGA_L001_R1_(paired)...  23.9    7.0  
+jgi|Gloin1|3016|gm1.3016_g                                            23.5    8.8  
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.130    0.488    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 203568255
+
+
+Query= AAZ06274.1 beta-tubulin, partial [Amanita muscaria]
+
+Length=94
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+jgi|Gloin1|21436|gm1.21436_g                                          164     2e-50
+jgi|Gloin1|343034|fgenesh1_kg.11990_#_3_#_step3_rep_c206              163     2e-50
+jgi|Gloin1|80694|e_gw1.22271.3.1                                      150     2e-45
+jgi|Gloin1|349421|fgenesh1_kg.24754_#_3_#_ACTTGA_L001_R1_(paired)...  93.2    5e-24
+jgi|Gloin1|67395|e_gw1.3875.12.1                                      73.2    6e-17
+jgi|Gloin1|75420|e_gw1.13611.2.1                                      48.5    2e-09
+jgi|Gloin1|88712|fgenesh1_pg.7436_#_7                                 34.3    0.003
+jgi|Gloin1|38930|fgenesh1_pm.2582_#_1                                 30.0    0.11 
+jgi|Gloin1|16586|gm1.16586_g                                          27.3    0.83 
+jgi|Gloin1|343275|fgenesh1_kg.12417_#_1_#_ACTTGA_L001_R1_(paired)...  27.3    1.0  
+jgi|Gloin1|217165|CE117153_1491                                       25.4    4.0  
+jgi|Gloin1|3826|gm1.3826_g                                            25.0    6.4  
+jgi|Gloin1|98399|fgenesh1_pg.24098_#_1                                24.3    8.7  
+jgi|Gloin1|33649|gm1.33649_g                                          24.6    9.2  
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.132    0.373    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 201370464
+
+
+Query= AAZ06273.1 beta-tubulin, partial [Amanita muscaria]
+
+Length=94
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+jgi|Gloin1|21436|gm1.21436_g                                          164     2e-50
+jgi|Gloin1|343034|fgenesh1_kg.11990_#_3_#_step3_rep_c206              163     2e-50
+jgi|Gloin1|80694|e_gw1.22271.3.1                                      150     2e-45
+jgi|Gloin1|349421|fgenesh1_kg.24754_#_3_#_ACTTGA_L001_R1_(paired)...  93.2    5e-24
+jgi|Gloin1|67395|e_gw1.3875.12.1                                      73.2    6e-17
+jgi|Gloin1|75420|e_gw1.13611.2.1                                      48.5    2e-09
+jgi|Gloin1|88712|fgenesh1_pg.7436_#_7                                 34.3    0.003
+jgi|Gloin1|38930|fgenesh1_pm.2582_#_1                                 30.0    0.11 
+jgi|Gloin1|16586|gm1.16586_g                                          27.3    0.83 
+jgi|Gloin1|343275|fgenesh1_kg.12417_#_1_#_ACTTGA_L001_R1_(paired)...  27.3    1.0  
+jgi|Gloin1|217165|CE117153_1491                                       25.4    4.0  
+jgi|Gloin1|3826|gm1.3826_g                                            25.0    6.4  
+jgi|Gloin1|98399|fgenesh1_pg.24098_#_1                                24.3    8.7  
+jgi|Gloin1|33649|gm1.33649_g                                          24.6    9.2  
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.132    0.373    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 201370464
+
+
+  Database: ProteinSequences
+    Posted date:  Feb 10, 2023  9:30 AM
+  Number of letters in database: 8,170,311
+  Number of sequences in database:  30,282
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
