@@ -66,6 +66,6 @@ chmod u=rwx,g=rw-,o=---, about_me
 cd ..
 ```
 ```
-tar -cvf Homework1.tar HW1
+tar -cvf HW1_Directory.tar HW1
 ```
 
