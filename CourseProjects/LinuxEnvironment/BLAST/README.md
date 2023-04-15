@@ -18,4 +18,4 @@ Please perform blastn, blastp, tblastn searches using the two sequence files wit
 ---
 ### Steps:
 
-1. I downloaded 3 protein sequnces from my favorite mushroom, [*Amanita muscaria*](https://en.wikipedia.org/wiki/Amanita_muscaria). 
+1. I downloaded 3 nucleotide and protein sequnces from my favorite mushroom, [*Amanita muscaria*](https://en.wikipedia.org/wiki/Amanita_muscaria). 
