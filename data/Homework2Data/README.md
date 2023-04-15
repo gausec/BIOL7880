@@ -1,1 +1,1 @@
-> These are the files used for homework assignment 2. More information can be found under "CourseProjects."
+### These are the files used for homework assignment 2. More information can be found under "CourseProjects" in the [BLAST directory](https://github.com/gausec/Bioinformatics-BIOL7880/tree/main/CourseProjects/LinuxEnvironment/BLAST).
