@@ -41,7 +41,7 @@ scp /Users/Carol/Documents/homework5_sequences <username>@<ipaddress>:/Users/bio
 homework5_sequences = input("Type name of sequence file here, please: ")
 ```
 
-2. Create an outfile where the sequences will go
+2. Create an outfile where the sequences will go using the `open()` function with the `w` mode
 ```
 homework5_out = open('homework5_out.txt', 'w')
 ```
