@@ -33,27 +33,44 @@ mkdir HW5
 scp /Users/Carol/Documents/homework5_sequences <username>@<ipaddress>:/Users/bioinfo/Bioinformatics_Spring_2023/Gause_Carol/HW5
 ```
 
-
 ### Writing the script:
 
-1. Specify the sequences to open from the command line via user input
+1. Create a new python script
 ```
-homework5_sequences = input("Type name of sequence file here, please: ")
-```
-
-2. Create an outfile where the sequences will go using the `open()` function with the `w` mode
-```
-homework5_out = open('homework5_out.txt', 'w')
+nano Gause_Homework5.py
 ```
 
-3. Write the lines individually in the outfile. In the with statement, each line of the input file is read using a for loop, and the contents of each line are written to the output file using the write() method.
-
+2. Import sys module to allow access to command line arguments & set the variable 'file' to the first command line argument (name of input file)
 ```
-with open(homework5_sequences, 'r') as HW5Seq:
-    for line in HW5Seq:
-        homework5_out.write(line)
+import sys
+file=sys.argv[1]
 ```
 
+3. Open input file in read/write mode & create a new output file in read/write mode with the '.txt' extension
+```
+fp1 = open(file, 'r')
+fp2 = open(file+'.txt', 'w+')
+```
+
+4. Read lines of the input file and store as a list of strings
+```
+HW5seq=fp1.readlines()
+```
+
+5. Iterate through each line in the list of input file lines 
+``` 
+for line in HW5seq:
+    if line[0]=='>':                        # Write only the first element of the line (the sequence ID) followed by a new line if the first character is a '>'
+        fp2.write(line.split()[0]+'\n')
+    else:                                   # Otherwise write entire line to output file
+        fp2.write(line)
+```
+        
+6. Close the files        
+```
+fp1.close()
+fp2.close()
+```
 ### Copying my outfile to my local computer
 
 1. Use `scp` command to copy my outfile to my local computer in the current working directory 
