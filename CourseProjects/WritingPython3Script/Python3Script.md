@@ -32,6 +32,7 @@ mkdir HW5
 ```
 scp /Users/Carol/Documents/homework5_sequences <username>@<ipaddress>:/Users/bioinfo/Bioinformatics_Spring_2023/Gause_Carol/HW5
 ```
+---
 
 ### Writing the script:
 
@@ -71,6 +72,8 @@ for line in HW5seq:
 fp1.close()
 fp2.close()
 ```
+---
+
 ### Copying my outfile to my local computer
 
 1. Use `scp` command to copy my outfile to my local computer in the current working directory 
