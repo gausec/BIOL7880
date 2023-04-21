@@ -1,4 +1,4 @@
-# BIOL7880 is a graduate level bioinformatics course at East Carolina University.
+# BIOL7880 is a graduate-level bioinformatics course at East Carolina University.
 ---
 
 #### *The objective of this course is to prepare graduate students in bioinformatics skills*
