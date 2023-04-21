@@ -7,7 +7,7 @@ import sys
 file=sys.argv[1]
 
 
-# Open input file in read/write mode & create a new output file in read/write mode with the '.txt' extension
+# Open input file in read mode & create a new output file in read/write mode with the '.txt' extension
 fp1 = open(file, 'r')
 fp2 = open(file+'.txt', 'w+')
 
